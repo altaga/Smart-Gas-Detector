@@ -2,8 +2,7 @@
 
 System of early detection of accumulation of gases in homes, with activation of extractors through cloud connectivity based on Rapid IoT Prototyping Kit.
 
-<img src="https://i.ibb.co/Jrg4MG0/Animated-GIF-downsized-large-1.gif" width="1000">
-<img src="https://media.giphy.com/media/2A53iheUI58rXtdvs9/giphy.gif" width="1000">
+<img src="https://media.giphy.com/media/1Y9XqcV1kEgobMOkCu/giphy.gif" width="1000">
 
 Always use technology to improve the world, if you are a black hat or gray hat hacker please abstain at this point ......... or at least leave your star to make me feel less guilty XP.
 
