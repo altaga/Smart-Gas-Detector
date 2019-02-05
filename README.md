@@ -21,17 +21,6 @@ Always use technology to improve the world, if you are a black hat or gray hat h
 
 ## Introduction:
 
-It is a fact that today the use of bicycles and other multimodal transport is increasing due to various reasons, including traffic, increase of awareness in global warming,etc... 
-
-This is very good for the planet but it puts the users in a continuous latent risk when using it due to factors such as:
-
-- Inadequate climate to exercise due to high pollutants.
-- Fatal dangers by motor vehicles such as cars or public transport.
-- Danger of falling or an accident due to the fact that the vehicle does not have a safety system for the user (bicycles, unlike cars, do not have an airbag or any protection, duh).
-
-An integral platform connected by cell phone for constant weather monitoring, whenever the user suffers a fall or accident, it can effectively notify relatives or the corresponding authority (or emergency service) with only a button.
-
-The solutions that exist today are SmartWatch based, which provide monitoring of distance traveled but do not provide an emergency warning system or real-time analysis of air quality.
 
 ## Materials:
 
