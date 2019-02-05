@@ -4,6 +4,8 @@ System of early detection of accumulation of gases in homes, with activation of 
 
 <img src="https://media.giphy.com/media/9VeuJ8sII8rYD7XViE/giphy.gif" width="1000">
 
+GIF image
+
 Always use technology to improve the world, if you are a black hat or gray hat hacker please abstain at this point ......... or at least leave your star to make me feel less guilty XP.
 
 # Table of contents
@@ -19,27 +21,21 @@ Always use technology to improve the world, if you are a black hat or gray hat h
 
 ## Introduction:
 
+It is a fact that today the use of bicycles and other multimodal transport is increasing due to various reasons, including traffic, increase of awareness in global warming,etc... 
 
+This is very good for the planet but it puts the users in a continuous latent risk when using it due to factors such as:
+
+- Inadequate climate to exercise due to high pollutants.
+- Fatal dangers by motor vehicles such as cars or public transport.
+- Danger of falling or an accident due to the fact that the vehicle does not have a safety system for the user (bicycles, unlike cars, do not have an airbag or any protection, duh).
+
+An integral platform connected by cell phone for constant weather monitoring, whenever the user suffers a fall or accident, it can effectively notify relatives or the corresponding authority (or emergency service) with only a button.
+
+The solutions that exist today are SmartWatch based, which provide monitoring of distance traveled but do not provide an emergency warning system or real-time analysis of air quality.
 
 ## Materials:
 
-- Cable                                x 2 Meters.
-- IPT60R028G7 (600VCoolMOS)            x 4.
-- MOC3021 (Optoisolator Triac Driver)  x 4.
-- 2N6073AG (Triac)                     x 4.
-- 1uF Cap                              x 4.
-- 220 Ω                                x 4.
-- 100 kΩ                               x 4.
-- 10  kΩ                               x 4.
-- 330 Ω                                x 4.
-- Lightbulb socket                     x 4.
-- Lightbulb                            x 4.
-- Plug                                 x 1.
-- Protoboard.                          x 1.
-- Dupont Cable or Jumpers              To Many.
-- Arduino Board.                       x 1.
-- 12 Volts Source (For Arduino).       x 1.
-- Sound Detection Sensor Module Sensor x 1.
+Si quieres recrear el sistema 
 
 Optional to make the PCB:
 
@@ -73,8 +69,9 @@ Optional to make the PCB:
 
 All the information about the technology used, and direct references are in our wiki:
 
-Wiki: https://github.com/altaga/MOSMusic-MM-/wiki
+Wiki: https://github.com/altaga/Smart-Gas-Detector/wiki
 
 Top:
 
 * [Table of Contents](#table-of-contents)
+
