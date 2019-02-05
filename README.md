@@ -21,10 +21,18 @@ Always use technology to improve the world, if you are a black hat or gray hat h
 
 ## Introduction:
 
+Nowadays people tend to die from carelessness caused by themselves, such as leaving open the gas outlet of the stove or not cleaning a chimney and filling the home with CO2; Although these problems are not mortal by themselves, they can lead to death by suffocation if they are not tended immediately.
+
+What are you going to build:
+A system of real-time monitoring of air quality in homes to alert about harmful levels of hazardous gases in the environment, such as CO2, butane gas, etc. This integral solution integrate a intelligent ventilation systems that can extract dangerous gases before they can affect users and in turn use these devices to generate machine learning models. All this for the early prevention of these incidents and to determine their frequency.
+
+Today there are basic sensors that provide smoke alerts, that warn the detection of smoke at home, some even having complex systems of aspersion to extinguish fires, nevertheless through these systems we can not collect data, which is one of the main purposes of IoT technology, besides that they are not easy to integrate into smart home systems.
+
+It is extremely useful because thanks to this system users can be notified of direct threats to their lives caused by minor oversights such as those mentioned above.
 
 ## Materials:
 
-Si quieres recrear el sistema 
+Si quieres recrear el sistema completo
 
 Optional to make the PCB:
 
