@@ -95,14 +95,15 @@ Link del manual de Watson IoT Platform: https://github.com/altaga/The-Ultimate-I
 
 El proyecto final se instalo en una habitacion como se muestra en el video y se hicieron varios experimentos de que tipo de gases o peligros puedes detectar el NXP de forma efectiva, notaran la gran ventaja de tener un sistema integrado como el que se muestra ya que ests sistema podria salvarles la vida en algun momento.
 
-Video: Click on the image
+Video: Click on the image:
+
 [![https://youtu.be/bxBXAHCA2i4](https://media.giphy.com/media/9VeuJ8sII8rYD7XViE/giphy.gif)](https://youtu.be/bxBXAHCA2i4)
 
 Sorry github does not allow embed videos.
 
 ## Comments:
 
-
+Este producto diseñado con el NXP Rapid IoT Prototyping Kit muestra varias ventajas competitivas sobre los productos actualmente en el mercado, debido a que este producto es economico, no requiere gran inversion de infraestructura y provee una solucion interal y facilmente adaptable a las necesidades de los usuarios, debido a que el modulo de relevador es capaz de activar cualquier tipo de sistema de alto voltaje, por lo tanto el sistema podria complemetarse con algun sistema de aspersion de agua si fuera un incendio o incluive adaptarse a cualquier sistema de SmartHome.
 
 ## References:
 
