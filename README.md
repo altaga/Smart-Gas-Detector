@@ -65,7 +65,7 @@ Para el desarollo de este proyecto se utilizo un NXP Rapid IoT Prototyping Kit, 
 
 Como primera parte del desarollo se realizo un programa en https://rapid-iot-studio.nxp.com/ el cual es el IDE de desarollo de NXP para este kit especifico, como base para esto el IDE tiene varios ejemplos y documentacion para realizar la programacion de el kit, la programacion de este modulo se realiza primordialmente por bloques y las interacciones entre estos, desde bloques de comparacion para hacer condicionales hasta bloques para conectividad a la cloud de NXP o AWS.
 
-Como template se utilizo el ejemplo de "Rapid IoT Kit Out Of Box Demo" y spbre el se agregaron los siguientes bloques para realizar la alerta luminosa de la calidad del aire.
+Como template se utilizo el ejemplo de "Rapid IoT Kit Out Of Box Demo" y spbre el se agregaron los siguientes bloques para realizar la alerta luminosa de la calidad del aire, el proyecto estara en la carpeta de "NXP Codes".
 
 <img src="https://i.ibb.co/9GXzrYg/NXP-Compare.png" width="1000">
 
