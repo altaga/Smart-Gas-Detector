@@ -32,27 +32,40 @@ It is extremely useful because thanks to this system users can be notified of di
 
 ## Materials:
 
-Si quieres recrear el sistema completo
+- NXP Rapid IoT Prototyping Kit. x 1
+- ESP32. x 2
+(https://www.adafruit.com/product/3405 Preferably use this because it is easier to program it.)
+- Luminosity/Lux/Light Sensor or in this case a LED diode. x 1
+- Cases for aesthetics. x 2
+- A Fan. x 1
 
-Optional to make the PCB:
+In the case you want to use a relay.
 
-- Soldering Station.
-- Wire Wrap Cable.
-- Soldering Iron.
-- Copper Clad Plate
-- Ferric Chloride
-- Sharpie Pen.
-- Alligator Cable x 4.
+- Relay Module for Arduino. x 1
+
+In the case you want to make the PCB circuit all the instructions are in the following link:
+https://github.com/altaga/MOSMusic-MM-
 
 ## The Circuit:
 
+El primer circuito es el de activacion del ESP32 a travez de la alerta luminosa del kit.
+<img src="https://i.ibb.co/HGYhS5N/NXP-Smart-Gas.png" width="1000">
 
+El segundo circuito de activacion de el ventilador mediante otro ESP32.
 
-## The PCB:
+<img src="https://i.ibb.co/nnW8vmD/NXP-relay-gas.png" width="1000">
 
+El tercet circuito es la opcion para no usar el relevador, todas las intrucciones para hacerlo estan en el siguiente link:
+https://github.com/altaga/MOSMusic-MM-
 
+<img src="https://i.ibb.co/jJxzjR9/NXPMOsfet.png" width="1000">
 
 ## Development:
+
+Para el desarollo de este proyecto se utilizo un NXP Rapid IoT Prototyping Kit, el cual es un kit de desarollo con una gran cantidad de sensores y un impecable diseño de hardware.
+
+Como primera parte del desarollo se realizo un programa en https://rapid-iot-studio.nxp.com/ el cual es el IDE de desarollo de NXP para este kit especifico, como base para esto el IDE tiene varios ejemplos y documentacion para realizar la programacion de el kit, la programacion de este modulo se realiza primordialmente por bloques y las interacciones entre estos, desde bloques de comparacion para hacer condicionales hasta bloques para conectividad a la cloud de NXP o AWS.
+
 
 
 ## The Final Product:
