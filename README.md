@@ -66,10 +66,39 @@ Para el desarollo de este proyecto se utilizo un NXP Rapid IoT Prototyping Kit, 
 
 Como primera parte del desarollo se realizo un programa en https://rapid-iot-studio.nxp.com/ el cual es el IDE de desarollo de NXP para este kit especifico, como base para esto el IDE tiene varios ejemplos y documentacion para realizar la programacion de el kit, la programacion de este modulo se realiza primordialmente por bloques y las interacciones entre estos, desde bloques de comparacion para hacer condicionales hasta bloques para conectividad a la cloud de NXP o AWS.
 
+Como template se utilizo el ejemplo de "Rapid IoT Kit Out Of Box Demo" y spbre el se agregaron los siguientes bloques para realizar la alerta luminosa de la calidad del aire.
 
+<img src="https://i.ibb.co/9GXzrYg/NXP-Compare.png" width="1000">
+
+Donde la comparacion de ambos bloques tienen la siguiente configuracion.
+
+<img src="https://i.ibb.co/yy1vXqR/NXP-Compare-2.png" width="400">
+<img src="https://i.ibb.co/B48DM9g/NXP-Compare1.png" width="400">
+
+De esta manera podremos controlar la alerta luminosa de el NXP para que asi sea detectada por el LED conectado a al ESP32.
+
+NOTA: existen sensores de deteccion de luz para el ESP32, pero aprovechamos que un LED es capaz de funcionar como un transductor, debido a que si se la pasa voltaje a un LED este es capaz de generar luz, pero si este recibe luz, es capaz de generar un pequeño voltaje entre sus terminales, en este caso de 800mV siendo esto suficiente para ser detectado por el ESP32 como una entrada analoga como se muestra en la imagen de abajo, ademas se puede ver como el esp ya esta dentro de un cajita y el LED por fuera.
+
+<img src="https://i.ibb.co/ZHyP138/IMG-1762.jpg" width="1000">
+
+El codigo de este ESP32 estara en la seccion "Arduino Codes" y este se llama "ESP32 Send".
+
+Para el segundo ESP32 se utilizo el codigo en la seccion de "Arduino Codes" y este se llama "ESP32 Recv", este se utilizara para que el ESP32 sea capaz de encender uno de sus pines digitales al recibir una señal de encendido mediante el MQTT, para realizar esta comunicacion por MQTT tenemos varias opciones.
+
+- https://mosquitto.org/ (Funciona en EDGE).
+- https://www.cloudmqtt.com/ (Es la cloud mas sencilla para hacer mqtt a travez de internet).
+- https://www.ibm.com/internet-of-things (Es mas compleja de configurar pero es la que da mejores resultados, ademas tenemos un manual excelente para realizar proyectos en esta plataforma). 
+
+Link del manual de Watson IoT Platform: https://github.com/altaga/The-Ultimate-IBM-Watson-IoT-Platform-Guide
 
 ## The Final Product:
 
+El proyecto final se instalo en una habitacion como se muestra en el video y se hicieron varios experimentos de que tipo de gases o peligros puedes detectar el NXP de forma efectiva, notaran la gran ventaja de tener un sistema integrado como el que se muestra ya que ests sistema podria salvarles la vida en algun momento.
+
+Video: Click on the image
+[![https://youtu.be/bxBXAHCA2i4](https://media.giphy.com/media/9VeuJ8sII8rYD7XViE/giphy.gif)](https://youtu.be/bxBXAHCA2i4)
+
+Sorry github does not allow embed videos.
 
 ## Comments:
 
