@@ -1,12 +1,13 @@
 #include <WiFi.h>
 #include <PubSubClient.h>
  
-const char* ssid = "Alta Int";
-const char* password =  "Altamirano0128";
-const char* mqttServer = "m12.cloudmqtt.com";
-const int mqttPort = 13853;
-const char* mqttUser = "ijplykav";
-const char* mqttPassword = "tLPKg_Y3FDy_";
+
+const char* ssid = "YOUR_SSID";
+const char* password =  "YOUR_PWRD";
+const char* mqttServer = "YOUR_MQTT_SERVER";
+const int mqttPort = "YOUR_MQTT_PORT";
+const char* mqttUser = "YOUR_MQTT_USER";
+const char* mqttPassword = "YOUR_MQTT_PWRD";
 
 float sensorValue= 0;        // value read from the pot
 int counter=0;
@@ -77,7 +78,7 @@ void loop() {
   {
      if (flag ==0)
     {
-     client.publish("esp/test", "Apagado");  
+     client.publish("esp/test", "FAN OFF");  
     }
     flag=1;
    Serial.println(0);
@@ -87,7 +88,7 @@ void loop() {
   {
     if (flag==1)
     {
-     client.publish("esp/test", "Encendido");  
+     client.publish("esp/test", "FAN ON");  
     }
     flag=0;
    Serial.println(sensorValue);
