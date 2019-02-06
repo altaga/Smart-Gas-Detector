@@ -95,7 +95,7 @@ El proyecto final se instalo en una habitacion como se muestra en el video y se 
 
 Video: Click on the image:
 
-[![https://youtu.be/bxBXAHCA2i4](https://media.giphy.com/media/9VeuJ8sII8rYD7XViE/giphy.gif)](https://youtu.be/bxBXAHCA2i4)
+[![SGD](https://media.giphy.com/media/9VeuJ8sII8rYD7XViE/giphy.gif)](https://www.youtube.com/watch?v=uu8WHsOgXgg)
 
 Sorry github does not allow embed videos.
 
