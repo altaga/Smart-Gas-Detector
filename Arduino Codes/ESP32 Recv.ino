@@ -22,12 +22,12 @@ void callback(char* topic, byte* payload, unsigned int length) {
     pay+=(char)payload[i];
   }
   Serial.print(pay);
-  if(pay=="Encendido")
+  if(pay=="FAN ON")
   {
    digitalWrite(12,LOW);
    Serial.println("FAN ON"); 
   }
-  else
+  else if (pay=="FAN OFF")
   {
    digitalWrite(12,HIGH); 
    Serial.println("FAN OFF"); 
