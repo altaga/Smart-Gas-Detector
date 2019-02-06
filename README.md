@@ -13,7 +13,6 @@ Always use technology to improve the world, if you are a black hat or gray hat h
 * [Introduction](#introduction)
 * [Materials](#materials)
 * [The Circuits](#the-circuits)
-* [The PCB](#the-pcb)
 * [Development](#development)
 * [The Final Product](#the-final-product)
 * [Comments](#comments)
