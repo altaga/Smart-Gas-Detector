@@ -71,8 +71,7 @@ Como template se utilizo el ejemplo de "Rapid IoT Kit Out Of Box Demo" y spbre e
 
 Donde la comparacion de ambos bloques tienen la siguiente configuracion.
 
-<img src="https://i.ibb.co/yy1vXqR/NXP-Compare-2.png" width="300">
-<img src="https://i.ibb.co/B48DM9g/NXP-Compare1.png" width="300">
+<img src="https://i.ibb.co/yy1vXqR/NXP-Compare-2.png" width="300"><img src="https://i.ibb.co/B48DM9g/NXP-Compare1.png" width="300">
 
 De esta manera podremos controlar la alerta luminosa de el NXP para que asi sea detectada por el LED conectado a al ESP32.
 
