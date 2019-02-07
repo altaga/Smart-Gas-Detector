@@ -2,7 +2,7 @@
 
 System of early detection of accumulation of gases in homes, with activation of extractors through cloud connectivity based on Rapid IoT Prototyping Kit.
 
-<img src="https://media.giphy.com/media/9VeuJ8sII8rYD7XViE/giphy.gif" width="1000">
+<img src="https://i.imgur.com/ku97zfn.gif" width="1000">
 
 GIF image
 
